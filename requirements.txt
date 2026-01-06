@@ -1,0 +1,17 @@
+websockets>=12.0
+requests>=2.31.0
+pandas>=2.1.0
+numpy>=1.24.0
+python-dotenv>=1.0.0
+aiohttp>=3.9.0
+web3>=6.0.0
+eth-account>=0.8.0
+rich>=13.0.0
+py-clob-client
+# py-clob-client - Official Polymarket CLOB client (OPTIONAL but recommended)
+# REQUIRES Python >=3.9.10 (latest version: 0.34.3)
+# Installation (choose one):
+#   - If using Python 3.12+: python3.12 -m pip install git+https://github.com/Polymarket/py-clob-client.git
+#   - If Python >=3.9.10: pip install git+https://github.com/Polymarket/py-clob-client.git
+#   - Or from PyPI (if available): pip install py-clob-client
+# Note: Bot works without it (uses REST API fallback), but official client features are enhanced with it
